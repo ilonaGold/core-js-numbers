@@ -229,10 +229,10 @@ function toNumber(/* value, def */) {
  * @example:
  *   3  => 27
  *   -2 => -8
- *   0  => 0
+ *   0  => 0S
  */
-function getCube(/* num */) {
-  throw new Error('Not implemented');
+function getCube(num) {
+  return num ** 3;
 }
 
 /**
